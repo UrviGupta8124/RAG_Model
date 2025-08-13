@@ -1,0 +1,23 @@
+# LangChain Core
+langchain-community>=0.2.0
+langchain-huggingface>=0.0.6
+
+# Transformers & Hugging Face tools
+transformers>=4.40.0
+huggingface-hub>=0.21.0
+sentence-transformers
+torch
+
+# Vector store (FAISS instead of Milvus)
+faiss-cpu
+
+# Environment and utilities
+python-dotenv>=1.0.1
+wget
+tqdm
+
+# LLM via Replicate
+replicate>=0.22.0
+
+# IBM Granite utils (get_env_var)
+git+https://github.com/ibm-granite-community/utils
